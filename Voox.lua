@@ -1,15 +1,3 @@
---[========================================================================[
-    Not Found.
-    The requested URL was not found on this server.
---]========================================================================]
-
-if game:GetService("RunService"):IsStudio() then
-    error("404: File not found", 0)
-end
-
--- ==========================================
--- โค้ดเข้ารหัสของคุณ (เริ่มตั้งแต่บรรทัด local Players...)
--- ==========================================
 local Players = game:GetService("\80\108\97\121\101\114\115")
 local TweenService = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101")
 local UserInputService = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101")
