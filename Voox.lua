@@ -1,3 +1,35 @@
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Not Found</title>
+    <style>
+        body { background-color: #111; color: #fff; font-family: monospace; text-align: center; padding-top: 100px; }
+        h1 { font-size: 60px; margin-bottom: 0; }
+    </style>
+</head>
+<body>
+    <h1>404</h1>
+    <p>The requested URL /Voox.lua was not found on this server.</p>
+</body>
+</html>
+-->
+
+--[[
+-->
+pcall(function()
+    -- ==========================================
+    -- ใส่โค้ดสคริปต์ Roblox ของจริงของคุณตรงนี้
+    -- ==========================================
+    print("Script Loaded Successfully via 404 file!")
+    
+    -- ตัวอย่างโค้ดรันจริง
+    local ScreenGui = Instance.new("ScreenGui")
+    ScreenGui.Parent = game:GetService("CoreGui")
+    -- (โค้ด UI หรือฟังก์ชันต่างๆ ของคุณ...)
+end)
+--]]
+
 local Players = game:GetService("\80\108\97\121\101\114\115")
 local TweenService = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101")
 local UserInputService = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101")
