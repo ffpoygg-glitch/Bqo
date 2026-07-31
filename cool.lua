@@ -16,10 +16,11 @@ local function junkSuffix()
 end
 
 
+
 local function simpleUrlEncode(str)
     local hex = "0123456789ABCDEF"
     local result = ""
-    for i = 1, #str do
+    for i = 1, #str do      
         local b = string.byte(str, i)
         result = result .. "%" .. string.sub(hex, math.floor(b/16)+1, math.floor(b/16)+1) .. string.sub(hex, (b%16)+1, (b%16)+1)
     end
