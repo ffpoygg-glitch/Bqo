@@ -3,7 +3,6 @@ local TweenService = game:GetService("\84\119\101\101\110\83\111\114\118\105\99\
 local UserInputService = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101")
 local MarketplaceService = game:GetService("\77\97\114\107\101\116\112\108\97\99\101\83\111\114\118\105\99\101")
 local ReplicatedStorage = game:GetService("\82\101\112\108\105\99\97\116\101\100\83\111\114\118\105\99\101")
-local RE =
 local RE = ReplicatedStorage:WaitForChild("\82\69"):WaitForChild("\80\108\97\121\101\114\84\111\111\108\69\118\101\110\116")
 
 local player = Players.LocalPlayer
